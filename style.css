@@ -78,7 +78,7 @@ a:link {
     background-color: transparent;
     text-decoration: none;
     font-size: 20px;
-    float: right;
+    float: left;
   }
   
   a:visited {
@@ -101,6 +101,10 @@ a:link {
   ol{
       display: block;
       list-style: decimal;
+      margin-top: 1em;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 40px;
       
 
   }
