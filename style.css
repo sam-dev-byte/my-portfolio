@@ -6,6 +6,7 @@ html{
     width: 100%;
     background-position: center;
     background-size: cover;
+    float: right;
 
 }
 nav{
@@ -22,6 +23,7 @@ nav{
     font-size: 50px;
     letter-spacing: 1px;
     cursor: pointer;
+    text-decoration: underline;
 
     
 }
@@ -65,3 +67,37 @@ h4{
     color: white;
     font-size: 20px;
 }
+p{
+    color: white;
+    font-size: 35px;
+
+}
+a:link {
+    color:white;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  a:visited {
+    color:whitesmoke;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:rgb(230, 196, 8);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  ol{
+      display: block;
+      list-style: decimal;
+      
+  }
