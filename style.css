@@ -108,3 +108,7 @@ a:link {
       
 
   }
+.solid{
+    outline-style: solid ;
+    outline-color: red;
+}
